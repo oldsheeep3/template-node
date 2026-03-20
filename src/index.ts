@@ -1,12 +1,5 @@
-declare const require: any;
-declare const module: any;
+import { main } from './main';
 
-console.log('Hello from template-node (TypeScript)');
-
-export function main() {
-	console.log('App started');
-}
-
-if (typeof require !== 'undefined' && require.main === module) {
-	main();
+if (require !== undefined && require.main === module) {
+  main();
 }
