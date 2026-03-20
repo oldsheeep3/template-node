@@ -13,16 +13,5 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "prettier.enable": true,
-  "prettier.configPath": "./.prettierrc",
-  "tailwindCSS.experimental.classRegex": [
-    "className\\s*=\\s*\"([^\"]*)\"",
-    "className:.*?`([^`]*)`"
-  ],
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html",
-    "javascript": "javascript",
-    "typescript": "typescript",
-    "typescriptreact": "typescriptreact",
-    "javascriptreact": "javascriptreact"
-  }
+  "prettier.configPath": "./.prettierrc"
 }
